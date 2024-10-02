@@ -1,0 +1,20 @@
+@media (max-width: 600px) {
+    .search-bar {
+      display: none; /* Hides the entire search bar */
+    }
+  
+    .search-icon {
+      display: block; /* Show a search icon instead */
+    }
+  }
+  
+  @media (min-width: 601px) {
+    .search-bar {
+      display: flex; /* Show the search bar */
+    }
+  
+    .search-icon {
+      display: none; /* Hide the search icon */
+    }
+  }
+  
